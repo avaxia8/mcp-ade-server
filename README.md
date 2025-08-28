@@ -18,7 +18,7 @@ A Model Context Protocol (MCP) server for LandingAI's Agentic Document Extractio
 
 - Python 3.9-3.12
 - [uv](https://docs.astral.sh/uv/) package manager (recommended) or pip
-- LandingAI Vision Agent API key ([Get one here](https://cloud.landing.ai/api-keys))
+- LandingAI Vision Agent API key ([Get one here](https://docs.landing.ai/ade/agentic-api-key#get-your-api-key))
 
 ### Quick Start
 
