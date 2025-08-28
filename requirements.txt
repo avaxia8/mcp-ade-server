@@ -1,0 +1,14 @@
+# Core dependencies
+agentic-doc>=0.3.1
+mcp>=1.13.0
+python-dotenv>=1.0.0
+
+# Testing dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Development dependencies (optional)
+black>=23.0.0
+ruff>=0.1.0
+mypy>=1.5.0

@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  ade-server:
+    build: .
+    container_name: mcp-ade-server
+    environment:
+      - VISION_AGENT_API_KEY=${VISION_AGENT_API_KEY}
+      - BATCH_SIZE=${BATCH_SIZE:-10}
+      - MAX_WORKERS=${MAX_WORKERS:-5}
+    volumes:
+      # Mount local documents directory for processing
+      - ./documents:/app/documents:ro
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
