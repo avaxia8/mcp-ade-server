@@ -1,6 +1,6 @@
 # MCP ADE Server
 
-A Model Context Protocol (MCP) server for LandingAI's Agentic Document Extraction (ADE), enabling AI assistants like Claude to extract structured data from documents using vision-language models.
+A Model Context Protocol (MCP) server for LandingAI's Agentic Document Extraction (ADE), enabling AI assistants like Claude to extract structured data from of visually complex documents.
 
 ## Features
 
