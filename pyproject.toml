@@ -26,9 +26,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/mcp-ade-server"
-"Bug Reports" = "https://github.com/yourusername/mcp-ade-server/issues"
-"Source" = "https://github.com/yourusername/mcp-ade-server"
+"Homepage" = "https://github.com/avaxia8/mcp-ade-server"
+"Bug Reports" = "https://github.com/avaxia8/mcp-ade-server/issues"
+"Source" = "https://github.com/avaxia8/mcp-ade-server"
 
 [project.optional-dependencies]
 dev = [
